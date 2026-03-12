@@ -1,1 +1,20 @@
-﻿
+﻿public class user
+{
+    public string nama;
+    public string email;
+    public string password;
+    public string role;
+
+    public user (string nama, string email, string password, string role)
+    {
+        this.nama = nama;
+        this.email = email;
+        this.password = password;
+        this.role = role;
+    }
+    public void TampilkanInfo()
+    {
+        Console.WriteLine($"Name: {nama} | Role: {role}");
+    }
+    
+}
